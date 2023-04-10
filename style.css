@@ -1,0 +1,114 @@
+body {
+    min-height: 100vh;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+    background: lightblue;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    background-color: #fff;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+}
+
+.output {
+    width: 100%;
+    height: 200px;
+    border: 0.5px solid #999;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    position: relative;
+    background: lightblue
+}
+
+.gradient {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.gradient span {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.gradient input {
+    border: none;
+}
+
+.direction {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.direction span {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.direction select {
+    padding: 0.5rem;
+    border: 0.5px solid #999;
+}
+
+.direction select:focus {
+    outline: none;
+}
+
+.buttons {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+button:last-of-type {
+    background-color: #555;
+}
+
+.css-output {
+    display: flex;
+}
+
+#css-output {
+    width: 100%;
+    /* height: 80%; */
+    resize: none;
+    border: ipx solid #555;
+    border-radius: 0.5rem;
+    padding: 0.8rem 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#css-output:focus {
+    outline: none;
+}
+  
+#copy {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}

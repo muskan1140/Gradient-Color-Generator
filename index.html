@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient-Color</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <div class="container">
+        <div class="output"></div>
+        <div class="gradient">
+            <span>Colors</span>
+            <div>
+                <input type="color" id="color1" value="#CD58D5">
+                <input type="color" id="color2" value="#5747D1">
+            </div>
+        </div>
+        <div class="direction">
+            <span>Direction</span>
+            <select id="direction">
+                <option value="to right">Left to Right</option>
+                <option value="to left">Right to Left</option>
+                <option value="to bottom">Top to Bottom</option>
+                <option value="to top">Bottom to Top</option>
+                <option value="to bottom right">Top Left to Bottom Right</option>
+                <option value="to bottom left">Top Right to Bottom Left</option>
+            </select>
+        </div>
+        <div class="buttons">
+            <button id="generate">Generate Gradient</button>
+            <button id="refresh">Refresh</button>
+        </div>
+        <div class="css-output">
+            <textarea id="css-output" placeholder="css output"></textarea>
+        </div>
+        <button id="copy">Copy CSS Code</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>   
+</html>
